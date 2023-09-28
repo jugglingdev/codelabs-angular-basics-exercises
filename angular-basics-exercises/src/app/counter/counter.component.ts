@@ -10,13 +10,13 @@ export class CounterComponent {
 
   incrementCounter() {
     if (this.counter >= 0) {
-       return this.counter++;
+       this.counter++;
     }
   }
 
   decrementCounter() {
     if (this.counter > 0) {
-      return this.counter--;
+      this.counter--;
    }
   }
 }
