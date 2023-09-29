@@ -1,4 +1,12 @@
 button {
   margin: 5px;
   width: 50px;
+  font-size: 1.5em;
+}
+
+p {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 1.5em;
+  vertical-align: middle;
 }
