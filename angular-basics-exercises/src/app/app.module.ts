@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CounterComponent } from './counter/counter.component';
 import { FormsModule } from '@angular/forms';
+import { ArticleComponent } from './article/article.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
-    CounterComponent
+    CounterComponent,
+    ArticleComponent
   ],
   imports: [
     BrowserModule,
