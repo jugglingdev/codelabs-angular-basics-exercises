@@ -3,4 +3,8 @@
 <button class="btn btn-primary" (click)="toggleIsTechRelated()">Change isTechRelated</button>
 <br>
 
-<p>{{ content }}</p>
+
+<div *ngIf="isTechRelated; else notTechRelated"><pre>{{ content }}</pre></div>
+<ng-template #notTechRelated>
+  <div>Not Tech Related</div>
+</ng-template>
